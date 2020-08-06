@@ -1,0 +1,81 @@
+.header{
+    /*background-color: #333;*/
+    height:100px;
+    color:inherit;
+    text-align: center;
+    font-size:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+body{
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #2b2e34;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+}
+
+#intro{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+#description{
+    margin-top: 1rem;
+    margin-bottom: 0.75rem
+}
+
+section {
+    width: 68em;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    display: inline-block;
+    width: 8rem;
+    text-align: right;
+    padding-right: 0.4rem;
+}
+
+div.btn-group::after{
+    display: block;
+    content: '';
+}
+div.btn-group{
+    display: inline;
+}
+
+.btn-group>.btn-group:not(:first-child), .btn-group>.btn:not(:first-child) {
+    margin-left: 1px;
+}
+
+button.toggle.active {
+    background-color: #ff8500;
+}
+
+.right{
+    float: right;
+}
+
+.hidden { display:none; }
+
+.btn{
+    border-radius: 0 !important;
+    margin: 0 2px 1px 0;
+}
+
+.Selected{
+    background-color: #ff8500 !important;
+    color: white !important;
+}
